@@ -1,0 +1,92 @@
+section.idealizadores .container{  
+    align-items: center;
+    display: flex; 
+    justify-content: space-evenly;
+    margin: auto;
+}
+
+section.idealizadores{
+    margin: auto;
+    text-align: center;
+}
+
+section.idealizadores span{
+    background-color: var(--cor-titulo-topo);
+    font-size: 4rem;
+    font-weight: 600;
+    padding: 2rem 4rem;
+    text-transform: uppercase;
+}
+
+section.idealizadores h4{
+    font-size: 3rem;
+    font-style: italic;
+    padding: 3rem 0;
+}
+
+.class-idealizadores{
+    display: flex;
+    margin: 10rem 0;
+}
+
+.card-idealizadores{
+    background-color: var(--cor-destaque-roxo);
+    border: 1px solid var(--cor-destaque-roxo);
+    border-radius: 5px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    padding: 4rem;
+    transition: all 0.3s ease 0s;
+}
+
+.card-idealizadores:hover{
+    transform: translateY(-7px);
+}
+
+.card-idealizadores h6{
+    font-size: 1.8rem;
+    letter-spacing: 1rem;
+    margin: 2rem auto;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.card-idealizadores p{
+    font-family: var(--fonte-texto);
+    font-weight: 100;
+    text-align: center;
+}
+
+.card-idealizadores i{
+    border: 1px solid var(--cor-titulo-topo);
+    color: var(--cor-titulo-topo);
+    cursor: pointer;
+    font-size: 3rem;
+    margin-top: 2rem;
+    padding: 0.5rem;  
+    transition: 0.5s;  
+}
+
+.card-idealizadores i:hover{
+    font-size: 3.5rem;        
+}
+
+.pessoa-img{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 100%;  
+    box-shadow: 0 0 2em lightslategrey;  
+    height: 300px;    
+    margin: 0 auto;  
+    width: 300px;
+}
+
+.pessoa-img-eliz{
+    background-image: url("../img/Eliz.JPG");
+}
+
+.pessoa-img-roger{
+    background-image: url("../img/Roger.jpg");
+}

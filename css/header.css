@@ -1,0 +1,37 @@
+header{
+    background-color: var(--cor-de-nav);
+}
+
+header .container{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+}
+
+header nav ul{
+    display: flex;
+}
+
+header nav ul li{
+    list-style: none;
+}
+
+header nav ul li a{
+    color: var(--cor-titulo-topo);
+    font-size: 1.6rem;
+    padding: 2rem;
+    text-decoration: none;
+    text-transform: uppercase;    
+    transition: all 250ms linear 0s;
+}
+
+header nav ul li a:hover{
+    background: var(--cor-hover-nav);
+}
+
+header #logo{
+    width: 90px;
+    margin: 1rem 0;
+    border-radius: 50%;
+}

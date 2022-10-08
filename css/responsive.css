@@ -1,0 +1,268 @@
+@media (max-width: 768px){
+    html{
+        font-size: 50%;
+    }
+    header .container{
+        padding-top: 1.5rem;
+    }
+    header .container img{
+        display: none;
+    }
+    header{
+        height: 8vh;
+    }
+    section.hero .container{
+        justify-content: center;
+    }
+    .video-historia{
+        width: 100%;
+    }
+    .class-img-oficina{
+        height: 40vh;
+    }
+    .card-apresentacao{
+        width: 30%;
+    }
+    section.contribuicao h2{
+        font-size: 2rem;
+    }
+    section.idealizadores .container{
+        flex-direction: column;
+    }
+    .lista-footer{    
+        line-height: 3.5rem;
+        padding-left: 4rem;        
+    }
+    .contato-footer{
+        padding-left: 3rem;
+    }
+}
+
+@media (max-width: 630px){
+    nav{
+        display: none;
+    }
+    .one,
+    .two,
+    .three{
+        background-color: var(--cor-titulo-topo);
+        height: 5px;
+        width: 100%;
+        margin: 6px auto;
+        transition-duration: 0.3ms;
+    }
+
+    .menu-toggle{
+        width: 40px;
+        height: 30px;
+        margin-right: 20px;
+    }
+    .menu-section.on{
+        position: absolute;
+        top: 0;
+        left: 0;
+        background-color: var(--cor-de-nav);
+        width: 100vw;
+        height: 100vh;
+        z-index: 10;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .menu-section.on nav{
+        display: block;
+    }
+    .menu-section.on .menu-toggle{
+        position: absolute;
+        right: 25px;
+        top: 15px;
+    }
+    .menu-section.on .menu-toggle .one{
+        transform: rotate(45deg) translate(7px, 7px);
+    }
+
+    .menu-section.on .menu-toggle .two{
+        opacity: 0;
+    }
+
+    .menu-section.on .menu-toggle .three{
+        transform: rotate(-45deg) translate(8px, -10px);
+    }
+
+    .menu-section.on nav ul{
+        display: block;
+        text-align: center;
+    }
+
+    .menu-section.on nav ul a{
+        transition-duration: 0.5s;
+        font-size: 3rem;
+        line-height: 4rem;
+        display: block;
+    }
+    header{
+        height: 10vh;
+    }
+
+    section.hero .container .topo{
+        margin: 10rem 0;
+    }
+
+    section.historia .container{
+        align-items: center;
+        flex-direction: column;
+    }
+
+    section.historia .container img{
+        width: 120px;
+        height: 120px;
+    }
+
+    .class-img-historia{
+        margin-top: 5rem;
+    }
+
+    section.oficina .container{
+        flex-direction: column;
+    }
+
+    .class-img-oficina{
+        text-align: center;
+        margin: 2rem 10rem;
+        order: 1;
+    }
+
+    .img-oficina{
+        width: 90%;
+    }
+
+    .class-oficina h3{
+        font-size: 2.5rem;
+        text-align: center;
+        padding: 1rem 2rem;
+    }
+
+    section.apresentacao .container{
+        flex-direction: column;
+        margin: 4rem;
+    }
+    .card-apresentacao{
+        width: 90%;
+    }
+    section.contribuicao{
+        height: 30vh;
+    }
+    section.contribuicao .container{
+        flex-direction: column;
+    }
+    section.contribuicao .container h2{
+        margin-top: 3.5rem;
+    }
+    .btn-contribuir{
+        margin-top: 2rem;
+    }
+    section.idealizadores span{
+        font-size: 2.5rem;
+        padding: 1rem;
+    }
+    section.idealizadores h4{
+        font-size: 2rem;
+    }
+   
+    section.parceiros .container span{
+        font-size: 3rem;
+    }
+
+    .img-carrossel{
+        height: 300px;
+    }
+
+    footer.rodape .container{
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .lista-footer{ 
+        margin: 2rem;
+        padding: 1rem;
+    }
+
+    .lista-footer ul li a{
+        font-size: 1.5rem;
+    }
+
+    .img-footer{
+        width: 50%;
+    }
+
+}
+
+@media (max-width: 415px){
+    section.historia .container img{
+        width: 100px;
+        height: 100px;
+    } 
+    .class-historia h3{
+        font-size: 2rem;
+        padding: 1rem 2rem;
+    }  
+    .class-img-oficina{
+        text-align: center;
+        margin: 2rem 5rem;
+        order: 1;
+    } 
+
+    section.idealizadores .container{
+        text-align: center;
+    }
+
+    .card-idealizadores{        
+        width: 300px;
+    }
+    .pessoa-img{
+        height: 200px;
+        width: 200px;
+    }
+    section.parceiros .container span{
+        padding: 2rem;
+    }
+}
+
+@media (max-width: 375px){
+    section.hero .container .topo{
+        margin-top: 5rem;
+    }
+    section.historia .container img{
+        width: 80px;
+        height: 80px;
+    } 
+    .class-historia h3{
+        padding: 1rem;
+    }
+    .class-historia{
+        padding: 2rem;
+    }
+    .class-oficina{
+        padding: 2rem;
+    }
+    section.idealizadores span{
+        font-size: 2rem;
+    }
+    section.parceiros .container span{
+        font-size: 2rem;
+    }
+    section.apresentacao .container .card-apresentacao{
+        margin: 1rem;
+    }
+    section.idealizadores h4{
+        margin: auto 1rem;
+    }
+    section.idealizadores .container{
+        justify-content: center;
+    }
+    .class-idealizadores{
+        margin: 1rem;
+    }
+}

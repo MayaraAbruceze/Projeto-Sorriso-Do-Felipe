@@ -1,0 +1,45 @@
+section.contribuicao .container{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+}
+
+section.contribuicao{
+    background-image: linear-gradient(rgba(0, 0, 0, .70), rgba(0, 0, 0, .70)100%), url('../img/projeto11.jpg');
+    background-position: center;
+    background-size: cover;
+    height: 25vh;
+    margin: 10rem auto;
+}
+
+section.contribuicao h2{
+    background-color: var(--cor-titulo-topo);
+    font-size: 2.5rem;
+    margin-top: 6rem;
+    padding: 1rem 4rem;
+    text-transform: uppercase;
+}
+
+.btn-contribuir{
+    background-color: var(--cor-titulo-topo);
+    border-radius: 5px;    
+    border-color: transparent;
+    cursor: pointer;
+    font-size: 2rem;
+    font-weight: 700;
+    margin-top: 6rem;
+    padding: 1rem 5rem;
+    transition: all 0.3s ease 0s;
+}
+
+.btn-contribuir a{
+    color: var(--cor-de-nav);
+    text-decoration: none;
+}
+
+.btn-contribuir:hover{
+    background-color: transparent;
+    border-color: var(--cor-titulo-topo);
+    transform: translateY(-7px);
+}

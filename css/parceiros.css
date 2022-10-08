@@ -1,0 +1,35 @@
+section.parceiros .container{   
+    margin: auto;
+    text-align: center;
+}
+
+section.parceiros{
+    background-color: var(--cor-de-nav);
+    margin-top: 6rem;
+    padding: 4rem 0;
+}
+
+section.parceiros .container span{
+    background-color: var(--cor-titulo-topo);
+    font-size: 4rem;
+    font-weight: 600;
+    padding: 2rem 4rem;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+section.parceiros .container h4{
+    color: var(--cor-titulo-topo);
+    font-size: 3rem;
+    padding: 3rem 0;
+}
+
+.carrosel-projeto{
+    margin: 4rem auto;
+}
+
+.img-carrossel{
+    display: block;
+    width: 200px;
+    height: 200px;
+}

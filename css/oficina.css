@@ -1,0 +1,47 @@
+section.oficina .container{
+    display: flex;
+    margin: auto;
+}
+
+.img-oficina{
+    width: 25vw;
+}
+
+.class-img-oficina{
+    background-color: var(--cor-de-nav);
+    height: 50vh;
+    margin: 20rem 2rem;
+    padding: 1rem;    
+}
+
+.class-img-oficina h6{
+    color: var(--cor-destaque-verde);
+    font-size: 2rem;
+    margin-top: 3rem;
+    text-align: center;
+}
+
+.class-oficina{
+    align-items: center;
+    display: flex;
+    flex-direction: column;    
+    justify-content: center;
+    margin-top: 10rem;
+    padding: 1rem 4rem;
+}
+
+.class-oficina h3{
+    background-color: var(--cor-titulo-topo);
+    font-size: 2.5rem;
+    padding: 1rem 4rem;
+    text-transform: uppercase;
+}
+
+.class-oficina p{
+    color: var(--cor-de-nav);
+    font-family: var(--font-texto);
+    font-weight: 100;
+    line-height: 3rem;
+    margin: 5rem auto;
+    text-align: justify;
+}
