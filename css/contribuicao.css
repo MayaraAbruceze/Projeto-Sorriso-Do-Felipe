@@ -24,7 +24,6 @@ section.contribuicao h2{
 .btn-contribuir{
     background-color: var(--cor-titulo-topo);
     border-radius: 5px;    
-    border-color: transparent;
     cursor: pointer;
     font-size: 2rem;
     font-weight: 700;
@@ -39,7 +38,5 @@ section.contribuicao h2{
 }
 
 .btn-contribuir:hover{
-    background-color: transparent;
-    border-color: var(--cor-titulo-topo);
     transform: translateY(-7px);
 }

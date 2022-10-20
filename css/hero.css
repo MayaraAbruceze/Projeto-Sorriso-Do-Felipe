@@ -22,7 +22,7 @@ section.hero .container .topo{
 }
 
 .topo a{
-    color: var(--cor-de-fundo);
+    color: var(--cor-de-titulo);
     text-decoration: none;
 }
 
@@ -46,9 +46,8 @@ section.hero .container .topo{
 }
 
 .btn-topo{
-    background-color: transparent;
+    background-color: var(--cor-titulo-topo);
     border-radius: 5px;
-    border-color: var(--cor-titulo-topo);
     cursor: pointer;
     font-size: 2rem;
     margin-top: 2rem;
@@ -57,7 +56,6 @@ section.hero .container .topo{
 }
 
 .btn-topo:hover{
-    background-color: var(--cor-titulo-topo);
     transform: translateY(-7px);
 }
 
