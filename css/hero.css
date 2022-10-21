@@ -47,6 +47,7 @@ section.hero .container .topo{
 
 .btn-topo{
     background-color: var(--cor-titulo-topo);
+    border: transparent;
     border-radius: 5px;
     cursor: pointer;
     font-size: 2rem;
